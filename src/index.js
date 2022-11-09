@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Card from './card';
-import CardList from './CardList';
-import {robots} from './robots';
+import App from './App';
+
 import 'tachyons';
 
 
-ReactDOM.render(
-  <CardList robots={robots}/>
-,document.getElementById('root'));
+ReactDOM.render(<App/>,document.getElementById('root'));
 
 
 // If you want to start measuring performance in your app, pass a function
